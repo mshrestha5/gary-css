@@ -1,11 +1,12 @@
-body {
-    font-size: 22px;
+
+/* body {
+    font-size: 22px; */
     /* //border: 3px solid black; */
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     color: rgb(0,0,0);
     background-color: peachpuff;
-}
+} */
 /* h1, h2 {
     color: blue;
 }
@@ -30,6 +31,53 @@ p{
     font-style: italic;
 } */
 /* 3rd chap */
-p{
+/* p{
 color: #ff0077;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* header{
+    width: 100%;
+} */
+/* 
+h1{
+    border: 2px dashed red;
+    width: 50%;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0.5;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+nav{
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+/* 
+0: It sets the top margin to 0.
+auto: It centers the element horizontally by making the left and right margins equal and filling the available horizontal space equally on both sides. This is commonly used for centering block-level elements with a specified width.
+1rem: It sets the bottom margin to 1rem. rem stands for "root em," and it is a unit of measurement relative to the font size of the root element (usually the <html> element).
+ */
+ max-width: 600px;
+   font-size: 3rem;
+   line-height: 7rem;
+}
+
+h2{
+    padding: 1rem;
+    background: gold;
 }
