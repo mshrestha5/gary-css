@@ -80,4 +80,5 @@ auto: It centers the element horizontally by making the left and right margins e
 h2{
     padding: 1rem;
     background: gold;
+    border-radius: 2re;
 }
