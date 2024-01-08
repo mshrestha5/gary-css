@@ -110,6 +110,9 @@ left: 100px;
 
 /* position ex 2 starts */
 
+html{
+    scroll-behavior: smooth;
+}
 section{
     height: 100vh;
 }
