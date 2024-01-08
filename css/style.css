@@ -49,6 +49,7 @@ h1{
     width: 50%;
 } */
 
+/* mini projects */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 *{
@@ -58,7 +59,7 @@ h1{
 }
 
 body{
-    margin: 0.5;
+    margin: 0.5rem;
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
@@ -67,17 +68,47 @@ nav{
     border: 2px solid #333;
     border-radius: 2rem;
     margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
 /* 
 0: It sets the top margin to 0.
 auto: It centers the element horizontally by making the left and right margins equal and filling the available horizontal space equally on both sides. This is commonly used for centering block-level elements with a specified width.
 1rem: It sets the bottom margin to 1rem. rem stands for "root em," and it is a unit of measurement relative to the font size of the root element (usually the <html> element).
  */
- max-width: 600px;
-   font-size: 3rem;
-   line-height: 7rem;
-}
+ 
 
 h2{
     padding: 1rem;
     background: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    border-top: 1px solid #333;
+}
+li a{
+    display: block;
+}
+
+li a, 
+li a:visited{
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover,
+li a:focus{
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
 }
