@@ -286,24 +286,24 @@ body {
 /* grid ends */
 
 /* images starts */
-img{
+/* img{
   display: block;
-}
+} */
 
 /* Utility Classes */
-.nowrap{
+/* .nowrap{
   white-space: nowrap;
 }
 
 .offscreen {
   position: absolute;
   left: -10000px;
-}
+} */
 
 /* end Utility Classes */
 
 
-body {
+/* body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
 }
@@ -350,5 +350,17 @@ body {
 .example img{
   width: 25%;
   height: auto;
-}
+} */
 /* images ends */
+
+
+/* general styles */
+body{
+  font: 1.5rem "Nunito", san-serif;
+  min-height: 100vh;
+}
+
+@media screen and (min-aspect-ratio: 481px) {
+
+  
+}
